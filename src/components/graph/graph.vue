@@ -14,7 +14,8 @@ const isGraph = ref(true)
 const render = (seq: Array<number>) => {
     const graphs = getNodesInfo(seq)
     console.log("seq", seq)
-    console.log("graphs",graphs)
+    console.log("graphs", graphs)
+    
     if (!graphs) {
         isGraph.value = false
         return
