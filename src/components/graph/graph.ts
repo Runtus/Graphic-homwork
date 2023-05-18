@@ -1,4 +1,4 @@
-import { computeSeqGai } from "../../tools/graphic-sequic"
+import { computeGraphSeq } from "../../tools/graphic-sequic"
 
 export type Link = {
     source: string,
@@ -7,8 +7,8 @@ export type Link = {
 
 
 export const getNodesInfo = (seq: Array<number>) => {
-    const results = computeSeqGai(seq);
-    console.log("newSeq",computeSeqGai(seq))
+    const results = computeGraphSeq(seq);
+    console.log("newSeq",computeGraphSeq(seq))
     const links: Array<Link> = [];
     if (results === 0) {
         return null
