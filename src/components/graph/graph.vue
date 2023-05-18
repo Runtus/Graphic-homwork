@@ -85,7 +85,7 @@ defineExpose({
 
     </div>
     <div id="no" v-else>
-        序列不是图序列，不能生成简单图
+        否
     </div>
 </template>
 
