@@ -39,6 +39,6 @@
   "dependencies": {
     "ant-design-vue": "^3.2.20",
     "echarts": "^5.4.2",
-    "unplugin-vue-components": "^0.24.1"
+    "unplugin-vue-components": "^0.25.1"
   }
 }
